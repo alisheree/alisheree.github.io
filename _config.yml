@@ -21,7 +21,7 @@
 title: Ali Wixom
 email: your-email@example.com
 author:
-linkedin: https://www.linkedin.com/in/ali-wixom-528461194/?skipRedirect=true
+#linkedin: https://www.linkedin.com/in/ali-wixom-528461194/?skipRedirect=true
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my tech portfolio!
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -30,7 +30,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #github_username:  jekyll
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
+show_downloads: false
 plugins:
   - jekyll-feed
 
